@@ -186,7 +186,8 @@ export class AlchemyProvider
             'Accept-Encoding': 'gzip'
           },
       allowGzip: true,
-      url
+      url,
+      skipFetchSetup: true
     };
   }
 
