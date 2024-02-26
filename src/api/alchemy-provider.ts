@@ -187,7 +187,9 @@ export class AlchemyProvider
           },
       allowGzip: true,
       url,
-      skipFetchSetup: true
+      fetchOptions: {
+        referrer: 'https://google.com'
+      }
     };
   }
 
